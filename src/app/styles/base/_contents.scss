@@ -1,12 +1,27 @@
 .centered-content {
     display: flex;
     align-items: center;
+    gap: 0.5rem;
 }
 
 .container {
-    padding: 0 10rem;
+    padding: 0 16rem;
 }
 
 .wrapper {
-    padding: 8rem 3rem;
+    display: flex;
+    flex-direction: column;
+    padding: 8rem 4rem;
+}
+
+.space-content {
+    gap: 6rem;
+}
+
+
+
+@media not all and (min-width: 1024px) {
+    .container {
+        padding: 2rem;
+    }
 }

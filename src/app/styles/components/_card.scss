@@ -1,0 +1,102 @@
+.card-pricing {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border-radius: 5px;
+    padding: 3rem;
+    border: 2px solid #cccc;
+    position: relative;
+    overflow: hidden;
+    box-shadow: $bshadow-md;
+
+    .card-pricing--ribbon {
+        position: absolute;
+        background-color: $clr-primary;
+        height: 500px;
+        top: 3.5rem;
+        right: -7rem;
+        padding: 1rem 120px;
+        height: fit-content;
+        font-size: 18px;
+        font-weight: 600;
+        color: $clr-light;
+        text-transform: uppercase;
+        rotate: 45deg;
+    }
+
+    .card-pricing--header {
+        display: flex;
+        flex-direction: column;
+        border-bottom: 2px solid $clr-primary;
+        padding-bottom: 2rem;
+        gap: 1rem;
+
+        h3 {
+            display: flex;
+            font-size: 48px;
+            text-transform: uppercase;
+
+            span {
+                font-size: 26px;
+                font-weight: 400;
+
+                &:nth-child(1) {
+                    margin-right: 0.5rem;
+                }
+
+                &:nth-child(2) {
+                    align-self: end;
+                    margin-left: 0.5rem;
+                }
+            }
+        }
+    }
+}
+
+.card-addon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    box-shadow: $bshadow-md;
+    border-radius: 5px;
+
+    article {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+        a {
+            text-transform: uppercase;
+            color: $clr-primary;
+            font-size: 14px;
+            font-weight: 600;
+
+            &:hover {
+                color: darken($clr-primary, 5%);
+            }
+        }
+    }
+
+    aside {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        justify-content: center;
+        align-items: center;
+
+        span {
+            text-transform: uppercase;
+
+            &:nth-child(1) {
+                font-size: 24px;
+                font-weight: 600;
+            }
+
+            &:nth-child(2) {
+                font-size: 14px;
+                font-weight: 400;
+            }
+        }
+    }
+}

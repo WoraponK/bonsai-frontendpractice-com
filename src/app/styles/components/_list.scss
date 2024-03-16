@@ -1,0 +1,19 @@
+.list {
+    li {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        color: $clr-dark;
+        transition: $transition-all;
+        
+        * {
+            color: $clr-primary;
+        }
+    }
+}
+
+.list-vertical {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}

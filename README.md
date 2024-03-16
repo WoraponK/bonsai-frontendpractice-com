@@ -1,5 +1,7 @@
 From [Bonsai](https://www.frontendpractice.com/projects/bonsai).
 
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
 ## Todo List
 
 - [✔] Navbar
@@ -9,12 +11,9 @@ From [Bonsai](https://www.frontendpractice.com/projects/bonsai).
 - [❌] Dropdowns
 - [❌] Accordions
 
-Notice:
+Note:
 - [✔] Completed
 - [❌] Not Completed
-
-
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 

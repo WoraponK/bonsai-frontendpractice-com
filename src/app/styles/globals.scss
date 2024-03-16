@@ -8,9 +8,14 @@
 // Layout
 @import './layout/Header.scss';
 @import './layout/Footer.scss';
+@import './layout/Home.scss';
 
 // Components
 @import './components/button';
 @import './components/nav';
+@import './components/list';
+@import './components/switch';
+@import './components/card';
+@import './components/badge';
 
 // Utils

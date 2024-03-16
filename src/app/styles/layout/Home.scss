@@ -1,0 +1,66 @@
+// Plan Pricing --Start
+
+.plan-pricing {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+    .plan-pricing--header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .plan-pricing--header-right {
+            text-transform: uppercase;
+            font-weight: 600;
+            gap: 1.5rem;
+            display: flex;
+            flex-direction: column;
+
+            article {
+                display: flex;
+                justify-content: end;
+
+                p {
+                    color: $clr-primary;
+                }
+            }
+
+            aside {
+                display: flex;
+                gap: 2rem;
+            }
+        }
+    }
+
+    .plan-pricing--content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+}
+
+// Plan Pricing --End
+
+// Add On --Start
+
+.add-on {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+    .add-on--header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .add-on--content {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
+
+// Add On --End

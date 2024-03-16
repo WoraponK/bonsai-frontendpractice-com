@@ -28,7 +28,8 @@
     color: $clr-primary;
 
     &:hover {
-        background-color: darken($clr-light, 5%);
+        background-color: $clr-primary;
+        color: $clr-light;
     }
 }
 
