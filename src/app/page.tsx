@@ -353,7 +353,7 @@ function Home() {
                 alt='Two months free'
               />
             </div>
-            <span style={isYearly ? { color: '#9d9d9d' } : {}}>Monthly</span>
+            <span style={isYearly ? { color: '#cccccc' } : {}}>Monthly</span>
             <label htmlFor="check" className='switch'>
               <input
                 type="checkbox"
@@ -364,7 +364,7 @@ function Home() {
               />
               <span></span>
             </label>
-            <span style={isYearly ? {} : { color: '#9d9d9d' }}>Yearly</span>
+            <span style={isYearly ? {} : { color: '#cccccc' }}>Yearly</span>
           </aside>
         </div>
       </header>
