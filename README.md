@@ -1,3 +1,19 @@
+From [Bonsai](https://www.frontendpractice.com/projects/bonsai).
+
+## Todo List
+
+- [✔] Navbar
+- [✔] Footer
+- [❌] Pricing Layout
+- [❌] Toggle Switches
+- [❌] Dropdowns
+- [❌] Accordions
+
+Notice:
+- [✔] Completed
+- [❌] Not Completed
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

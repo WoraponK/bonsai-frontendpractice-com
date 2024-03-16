@@ -1,0 +1,12 @@
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+
+    h1 {
+        color: $clr-primary;
+    }
+
+
+}

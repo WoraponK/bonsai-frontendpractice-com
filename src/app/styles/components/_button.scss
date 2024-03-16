@@ -1,0 +1,38 @@
+.btn {
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 800;
+    transition: $transition-all;
+
+    &:active {
+        scale: 95%;
+    }
+}
+
+.btn-primary {
+    background-color: $clr-primary;
+    color: $clr-light;
+    
+    &:hover {
+        background-color: darken($clr-primary, 5%);
+    }
+}
+
+.btn-bordered {
+    border: 1px solid $clr-primary;
+    background-color: $clr-light;
+    color: $clr-primary;
+
+    &:hover {
+        background-color: darken($clr-light, 5%);
+    }
+}
+
+.--btn-groups {
+    display: flex;
+    gap: 1rem;
+}
