@@ -1,4 +1,5 @@
 From [Bonsai](https://www.frontendpractice.com/projects/bonsai).
+[Main website](http://web.archive.org/web/20221117021714/https://www.hellobonsai.com/pricing)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
@@ -6,10 +7,11 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 - [✔] Navbar
 - [✔] Footer
-- [❌] Pricing Layout
-- [❌] Toggle Switches
+- [✔] Pricing Layout
+- [✔] Toggle Switches
 - [❌] Dropdowns
-- [❌] Accordions
+- [❌] Responsive
+- [✔] Accordions
 
 Note:
 - [✔] Completed

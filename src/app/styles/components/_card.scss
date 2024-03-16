@@ -3,7 +3,7 @@
     flex-direction: column;
     gap: 2rem;
     border-radius: 5px;
-    padding: 3rem;
+    padding: 2rem;
     border: 2px solid #cccc;
     position: relative;
     overflow: hidden;
@@ -13,11 +13,11 @@
         position: absolute;
         background-color: $clr-primary;
         height: 500px;
-        top: 3.5rem;
-        right: -7rem;
-        padding: 1rem 120px;
+        top: 2rem;
+        right: -8rem;
+        padding: 0.5rem 120px;
         height: fit-content;
-        font-size: 18px;
+        font-size: 14px;
         font-weight: 600;
         color: $clr-light;
         text-transform: uppercase;
@@ -31,25 +31,59 @@
         padding-bottom: 2rem;
         gap: 1rem;
 
-        h3 {
-            display: flex;
-            font-size: 48px;
-            text-transform: uppercase;
+        article {
+            &:nth-child(1) {
+                display: flex;
+                flex-direction: column;
+                gap: 0.25rem;
 
-            span {
-                font-size: 26px;
-                font-weight: 400;
-
-                &:nth-child(1) {
-                    margin-right: 0.5rem;
-                }
-
-                &:nth-child(2) {
-                    align-self: end;
-                    margin-left: 0.5rem;
+                p {
+                    font-size: 14px;
+                    width: 90%;
                 }
             }
+
+            &:nth-child(2) {
+                position: relative;
+
+                h3 {
+                    display: flex;
+                    font-size: 48px;
+                    text-transform: uppercase;
+
+                    span {
+                        font-size: 26px;
+                        font-weight: 400;
+
+                        &:nth-child(1) {
+                            margin-right: 0.5rem;
+                        }
+
+                        &:nth-child(2) {
+                            align-self: flex-end;
+                            margin-left: 0.5rem;
+                        }
+                    }
+                }
+
+                p {
+                    position: absolute;
+                    display: flex;
+                    justify-content: flex-end;
+                    width: 100%;
+                }
+            }
+
         }
+
+    }
+
+    .card-pricing--features {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        gap: 2rem;
     }
 }
 
@@ -71,9 +105,19 @@
             color: $clr-primary;
             font-size: 14px;
             font-weight: 600;
+            width: fit-content;
+
+            span {
+                transition: $transition-all;
+            }
 
             &:hover {
                 color: darken($clr-primary, 5%);
+
+                span {
+
+                    transform: translateX(4px);
+                }
             }
         }
     }
@@ -90,7 +134,7 @@
 
             &:nth-child(1) {
                 font-size: 24px;
-                font-weight: 600;
+                font-weight: 800;
             }
 
             &:nth-child(2) {

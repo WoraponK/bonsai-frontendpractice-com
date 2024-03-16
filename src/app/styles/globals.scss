@@ -1,8 +1,8 @@
 // Base
 @import './base/reset';
+@import './base/variables';
 @import './base/typography';
 @import './base/colors';
-@import './base/variables';
 @import './base/contents';
 
 // Layout
@@ -11,11 +11,10 @@
 @import './layout/Home.scss';
 
 // Components
+@import './components/switch';
 @import './components/button';
 @import './components/nav';
 @import './components/list';
-@import './components/switch';
 @import './components/card';
 @import './components/badge';
-
-// Utils
+@import './components/accordions';

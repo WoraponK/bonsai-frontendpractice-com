@@ -7,8 +7,12 @@
 
     .plan-pricing--header {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         align-items: center;
+
+        h2 {
+            font-size: 36px;
+        }
 
         .plan-pricing--header-right {
             text-transform: uppercase;
@@ -16,26 +20,27 @@
             gap: 1.5rem;
             display: flex;
             flex-direction: column;
-
-            article {
-                display: flex;
-                justify-content: end;
-
-                p {
-                    color: $clr-primary;
-                }
-            }
+            position: relative;
 
             aside {
                 display: flex;
+                align-items: center;
                 gap: 2rem;
+            }
+
+            .plan-pricing--header-right-img {
+                position: absolute;
+                height: 120px;
+                width: 120px;
+                right: -1.25rem;
+                top: -4.25rem;
             }
         }
     }
 
     .plan-pricing--content {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         gap: 2rem;
     }
 }
@@ -62,5 +67,54 @@
     }
 }
 
-
 // Add On --End
+
+// Business --Start
+
+.business-ad {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba($clr-primary, .1);
+    padding: 4rem;
+    border-radius: 5px;
+
+    article {
+        p {
+            font-size: 32px;
+            font-weight: 500;
+
+            span {
+                color: $clr-primary;
+            }
+        }
+    }
+}
+
+// Business --End
+
+// Freq Asked Questions --Start
+
+.freq-ask {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+    .freq-ask--header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h2 {
+            font-size: 28px;
+            color: $clr-primary;
+        }
+    }
+
+    .freq-ask--content {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+// Freq Asked Questions --End
