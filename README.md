@@ -6,11 +6,11 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Todo List
 
-- [✔] Navbar
-- [✔] Footer
-- [✔] Pricing Layout
-- [✔] Toggle Switches
-- [✔] Accordions
+- [x] Navbar
+- [x] Footer
+- [x] Pricing Layout
+- [x] Toggle Switches
+- [x] Accordions
 
 ## Preview
 
